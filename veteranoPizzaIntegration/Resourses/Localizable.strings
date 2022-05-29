@@ -1,0 +1,35 @@
+/* 
+  Localizable.strings
+  Memology
+
+  Created by Oleksa-Mykhaylo Boyko on 24.10.2021.
+  
+*/
+
+"metadata.appName" = "Memology";
+
+"onBoarding.textFieldTitle" = "Your name";
+"onBoarding.skipButtonTitle" = "Skip";
+"onBoarding.setPhotoButton" = "Add photo";
+"onBoarding.nextButton" = "Start";
+
+"homeViewController.firstStackViewMainText" = "Create a game";
+"homeViewController.firstStackViewSubText" = "Create a game and invite friends";
+
+"homeViewController.secondStackViewMainText" = "Join the game";
+"homeViewController.secondStackViewSubText" = "Enter the code to join your friends";
+
+"homeViewController.thirdStackViewMainText" = "Play online";
+"homeViewController.thirdStackViewSubText" = "Multiplayer with other players";
+
+"creatingGameViewController.mainText" = "Code for the game";
+"creatingGameViewController.subText" = "At least 3 players. Send the code to your friends so they can join the game.";
+"creatingGameViewController.nextButton" = "Start";
+
+"profileViewController.profileGamesCountText" = "Games";
+"profileViewController.profilePointsCountText" = "Points";
+"profileViewController.favoritesTextLabel" = "Favorites";
+
+"joinGameViewController.mainText" = "Code for the game";
+"joinGameViewController.subText" = "The game organizer will give you a code so you can enter the game";
+"joinGameViewController.nextButton" = "Start";

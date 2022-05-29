@@ -1,0 +1,24 @@
+PODS:
+  - SVPinCodeView (1.0.0)
+  - TinyConstraints (4.0.2)
+  - VKPinCodeView (0.4.2)
+
+DEPENDENCIES:
+  - SVPinCodeView
+  - TinyConstraints
+  - VKPinCodeView
+
+SPEC REPOS:
+  trunk:
+    - SVPinCodeView
+    - TinyConstraints
+    - VKPinCodeView
+
+SPEC CHECKSUMS:
+  SVPinCodeView: b910e5ca715b49b353f1e787738b823eb10f8902
+  TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
+  VKPinCodeView: 8d711959a080fec9e6aac165f7225d55b54a24ae
+
+PODFILE CHECKSUM: 62f92a3e8598a433a407537ff79b9b3c513ac70f
+
+COCOAPODS: 1.11.2

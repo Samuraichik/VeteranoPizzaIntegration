@@ -1,0 +1,6 @@
+framework module Pods_veteranoPizzaIntegration {
+  umbrella header "Pods-veteranoPizzaIntegration-umbrella.h"
+
+  export *
+  module * { export * }
+}

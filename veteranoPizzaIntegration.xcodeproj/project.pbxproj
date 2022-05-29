@@ -1,0 +1,1036 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E81E80F3DD8796D0B3C0283 /* Pods_veteranoPizzaIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 147D72576D330F3F0E54DC03 /* Pods_veteranoPizzaIntegration.framework */; };
+		CE1B2EF42799F660003CDBF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B2EF32799F660003CDBF8 /* AppDelegate.swift */; };
+		CE1B2EF62799F660003CDBF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B2EF52799F660003CDBF8 /* SceneDelegate.swift */; };
+		CE1B2EFB2799F660003CDBF8 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2EF92799F660003CDBF8 /* Splash.storyboard */; };
+		CE1B2EFD2799F662003CDBF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2EFC2799F662003CDBF8 /* Assets.xcassets */; };
+		CE1B2F002799F662003CDBF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2EFE2799F662003CDBF8 /* LaunchScreen.storyboard */; };
+		CE1B2F0A2799F87D003CDBF8 /* PizzaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B2F092799F87D003CDBF8 /* PizzaViewController.swift */; };
+		CE1B2F182799FB85003CDBF8 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B2F172799FB85003CDBF8 /* UINavigationController.swift */; };
+		CE1B2F1A2799FCBA003CDBF8 /* UIVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B2F192799FCBA003CDBF8 /* UIVIewController.swift */; };
+		CE1B2F1C2799FDC6003CDBF8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F1B2799FDC6003CDBF8 /* Localizable.strings */; };
+		CE1B2F222799FFCB003CDBF8 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B2F212799FFCB003CDBF8 /* SplashViewController.swift */; };
+		CE1B2F4B279A01DE003CDBF8 /* Montserrat-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F24279A01DD003CDBF8 /* Montserrat-MediumItalic.otf */; };
+		CE1B2F4C279A01DE003CDBF8 /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F25279A01DD003CDBF8 /* Montserrat-Bold.otf */; };
+		CE1B2F4D279A01DE003CDBF8 /* NotoSans-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F26279A01DD003CDBF8 /* NotoSans-Thin.otf */; };
+		CE1B2F4E279A01DE003CDBF8 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F27279A01DD003CDBF8 /* Quicksand-Bold.ttf */; };
+		CE1B2F4F279A01DE003CDBF8 /* Montserrat-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F28279A01DD003CDBF8 /* Montserrat-BlackItalic.otf */; };
+		CE1B2F50279A01DE003CDBF8 /* Montserrat-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F29279A01DD003CDBF8 /* Montserrat-BoldItalic.otf */; };
+		CE1B2F51279A01DE003CDBF8 /* Oswald-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F2A279A01DD003CDBF8 /* Oswald-Medium.otf */; };
+		CE1B2F52279A01DE003CDBF8 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F2B279A01DD003CDBF8 /* SF-Pro-Display-Regular.otf */; };
+		CE1B2F53279A01DE003CDBF8 /* Montserrat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F2C279A01DD003CDBF8 /* Montserrat-Light.otf */; };
+		CE1B2F54279A01DE003CDBF8 /* Montserrat-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F2D279A01DD003CDBF8 /* Montserrat-ThinItalic.otf */; };
+		CE1B2F55279A01DE003CDBF8 /* Montserrat-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F2E279A01DD003CDBF8 /* Montserrat-Thin.otf */; };
+		CE1B2F56279A01DE003CDBF8 /* Montserrat-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F2F279A01DD003CDBF8 /* Montserrat-ExtraLight.otf */; };
+		CE1B2F57279A01DE003CDBF8 /* NotoSans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F30279A01DD003CDBF8 /* NotoSans-Bold.otf */; };
+		CE1B2F58279A01DE003CDBF8 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F31279A01DD003CDBF8 /* SF-Pro-Display-Bold.otf */; };
+		CE1B2F59279A01DE003CDBF8 /* NotoSans-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F32279A01DD003CDBF8 /* NotoSans-Medium.otf */; };
+		CE1B2F5A279A01DE003CDBF8 /* NotoSans-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F33279A01DD003CDBF8 /* NotoSans-Regular.otf */; };
+		CE1B2F5B279A01DE003CDBF8 /* Montserrat-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F34279A01DD003CDBF8 /* Montserrat-LightItalic.otf */; };
+		CE1B2F5C279A01DE003CDBF8 /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F35279A01DD003CDBF8 /* Quicksand-Medium.ttf */; };
+		CE1B2F5D279A01DE003CDBF8 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F36279A01DD003CDBF8 /* SF-Pro-Display-Semibold.otf */; };
+		CE1B2F5E279A01DE003CDBF8 /* Montserrat-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F37279A01DD003CDBF8 /* Montserrat-Medium.otf */; };
+		CE1B2F5F279A01DE003CDBF8 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F38279A01DD003CDBF8 /* Quicksand-Regular.ttf */; };
+		CE1B2F60279A01DE003CDBF8 /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F39279A01DD003CDBF8 /* SF-Pro-Text-Regular.otf */; };
+		CE1B2F61279A01DE003CDBF8 /* Montserrat-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F3A279A01DD003CDBF8 /* Montserrat-SemiBoldItalic.otf */; };
+		CE1B2F62279A01DE003CDBF8 /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F3B279A01DD003CDBF8 /* SF-Pro-Text-Bold.otf */; };
+		CE1B2F63279A01DE003CDBF8 /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F3C279A01DD003CDBF8 /* Quicksand-SemiBold.ttf */; };
+		CE1B2F64279A01DE003CDBF8 /* Montserrat-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F3D279A01DD003CDBF8 /* Montserrat-Italic.otf */; };
+		CE1B2F65279A01DE003CDBF8 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F3E279A01DD003CDBF8 /* Montserrat-Regular.otf */; };
+		CE1B2F66279A01DE003CDBF8 /* NotoSans-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F3F279A01DD003CDBF8 /* NotoSans-ExtraLight.otf */; };
+		CE1B2F67279A01DE003CDBF8 /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F40279A01DD003CDBF8 /* Quicksand-Light.ttf */; };
+		CE1B2F68279A01DE003CDBF8 /* Montserrat-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F41279A01DD003CDBF8 /* Montserrat-ExtraBold.otf */; };
+		CE1B2F69279A01DE003CDBF8 /* Montserrat-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F42279A01DD003CDBF8 /* Montserrat-ExtraLightItalic.otf */; };
+		CE1B2F6A279A01DE003CDBF8 /* NotoSans-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F43279A01DD003CDBF8 /* NotoSans-Light.otf */; };
+		CE1B2F6B279A01DE003CDBF8 /* Montserrat-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F44279A01DD003CDBF8 /* Montserrat-Black.otf */; };
+		CE1B2F6C279A01DE003CDBF8 /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F45279A01DD003CDBF8 /* SF-Pro-Text-Semibold.otf */; };
+		CE1B2F6D279A01DE003CDBF8 /* SF-Pro-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F46279A01DD003CDBF8 /* SF-Pro-Text-Medium.otf */; };
+		CE1B2F6E279A01DE003CDBF8 /* Oswald.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F47279A01DE003CDBF8 /* Oswald.otf */; };
+		CE1B2F6F279A01DE003CDBF8 /* NotoSans-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F48279A01DE003CDBF8 /* NotoSans-SemiBold.otf */; };
+		CE1B2F70279A01DE003CDBF8 /* SF-Pro-Text-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F49279A01DE003CDBF8 /* SF-Pro-Text-SemiboldItalic.otf */; };
+		CE1B2F71279A01DE003CDBF8 /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2F4A279A01DE003CDBF8 /* Montserrat-SemiBold.otf */; };
+		CE1B2F74279A0277003CDBF8 /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B2F73279A0277003CDBF8 /* ColorPalette.swift */; };
+		CE1B2F76279A06E1003CDBF8 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B2F75279A06E1003CDBF8 /* UIColor.swift */; };
+		CE306D5F27AADD7000C8F512 /* AddIngredientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE306D5E27AADD7000C8F512 /* AddIngredientsViewController.swift */; };
+		CE306D6127AADDAB00C8F512 /* DoubleDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE306D6027AADDAB00C8F512 /* DoubleDismiss.swift */; };
+		CE306D6327AADE2700C8F512 /* AddIngredientsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE306D6227AADE2700C8F512 /* AddIngredientsCollectionViewCell.swift */; };
+		CE306D6527AADEDB00C8F512 /* ReusableCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE306D6427AADEDB00C8F512 /* ReusableCollectionCell.swift */; };
+		CE306D6827AAFA0800C8F512 /* IngredientsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE306D6727AAFA0800C8F512 /* IngredientsCollectionViewCell.swift */; };
+		CE8239EF27A41FBA00389524 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8239EE27A41FBA00389524 /* Helpers.swift */; };
+		CE8239F127A41FE200389524 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8239F027A41FE200389524 /* Layout.swift */; };
+		CE8239F827A4350F00389524 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8239F727A4350F00389524 /* Food.swift */; };
+		CE8239FB27A436CA00389524 /* ReusableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8239FA27A436CA00389524 /* ReusableCell.swift */; };
+		CE8239FD27A43A4C00389524 /* PizzaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8239FC27A43A4C00389524 /* PizzaTableViewCell.swift */; };
+		CE8239FF27A43D5E00389524 /* PriceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8239FE27A43D5E00389524 /* PriceFactory.swift */; };
+		CE823A0127A43D8700389524 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE823A0027A43D8700389524 /* Location.swift */; };
+		CE823A0327A69F9900389524 /* OrderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE823A0227A69F9900389524 /* OrderService.swift */; };
+		CE823A0A27A7310F00389524 /* PizzaIngredientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE823A0927A7310F00389524 /* PizzaIngredientsViewController.swift */; };
+		CE8CD30D27AFE8AB00B3D182 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CD30C27AFE8AB00B3D182 /* OrderViewController.swift */; };
+		CE8CD31427AFEA8B00B3D182 /* BasketPizzaCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CD30E27AFEA8B00B3D182 /* BasketPizzaCells.swift */; };
+		CE8CD31527AFEA8B00B3D182 /* HeaderTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CD30F27AFEA8B00B3D182 /* HeaderTableView.swift */; };
+		CE8CD31627AFEA8B00B3D182 /* DestinationCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CD31027AFEA8B00B3D182 /* DestinationCells.swift */; };
+		CE8CD31727AFEA8B00B3D182 /* ConfirmOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CD31127AFEA8B00B3D182 /* ConfirmOrderCell.swift */; };
+		CE8CD31827AFEA8B00B3D182 /* InfoFieldCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CD31227AFEA8B00B3D182 /* InfoFieldCells.swift */; };
+		CE8CD31927AFEA8B00B3D182 /* OrderSettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8CD31327AFEA8B00B3D182 /* OrderSettingsCell.swift */; };
+		CE8F88E427B2A5D400D26C29 /* PromoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F88E327B2A5D400D26C29 /* PromoTableViewCell.swift */; };
+		CE8F88E627B2A5E600D26C29 /* PromoIngridientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F88E527B2A5E600D26C29 /* PromoIngridientsViewController.swift */; };
+		CE8F88E827B2D31100D26C29 /* WeightFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F88E727B2D31100D26C29 /* WeightFactory.swift */; };
+		CE8F88F427B3CCE400D26C29 /* libLiqpayMob_universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8F88F227B3CCE400D26C29 /* libLiqpayMob_universal.a */; };
+		CE8F88F927B3E16C00D26C29 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F88F827B3E16C00D26C29 /* WebViewController.swift */; };
+		CE8F88FB27B3E66A00D26C29 /* InfoTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F88FA27B3E66A00D26C29 /* InfoTextViewController.swift */; };
+		CE8F88FD27B3E6FE00D26C29 /* ContractPublicOfert.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE8F88FC27B3E6FE00D26C29 /* ContractPublicOfert.txt */; };
+		CEC6EB1E27ABBBDA00437DA5 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6EB1D27ABBBDA00437DA5 /* String.swift */; };
+		CEC6EB2127AC3EA500437DA5 /* PreOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6EB2027AC3EA500437DA5 /* PreOrderViewController.swift */; };
+		CEC6EB2327AD1A3200437DA5 /* PreOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6EB2227AD1A3200437DA5 /* PreOrderTableViewCell.swift */; };
+		CEC6EB2727AD512C00437DA5 /* RootCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6EB2627AD512C00437DA5 /* RootCollectionViewController.swift */; };
+		CECB321B27B13C8100560240 /* DrinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB321A27B13C8000560240 /* DrinksViewController.swift */; };
+		CECB321E27B13CDD00560240 /* DrinksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB321D27B13CDD00560240 /* DrinksTableViewCell.swift */; };
+		CECB322027B1484B00560240 /* DrinksPropertiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB321F27B1484B00560240 /* DrinksPropertiesViewController.swift */; };
+		CECB322327B153A100560240 /* SaladsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB322227B153A100560240 /* SaladsViewController.swift */; };
+		CECB322527B1544100560240 /* SaladsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB322427B1544100560240 /* SaladsTableViewCell.swift */; };
+		CECB322727B15D3000560240 /* SaladsIngridientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB322627B15D3000560240 /* SaladsIngridientsViewController.swift */; };
+		CECB322A27B19B5100560240 /* SoucesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB322927B19B5100560240 /* SoucesViewController.swift */; };
+		CECB322C27B19B9100560240 /* SoucesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB322B27B19B9100560240 /* SoucesTableViewCell.swift */; };
+		CECB322E27B19BC300560240 /* SoucesIngridientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB322D27B19BC300560240 /* SoucesIngridientViewController.swift */; };
+		CECB323F27B1A40B00560240 /* LiqPayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB323D27B1A40B00560240 /* LiqPayManager.swift */; };
+		CECB324027B1A40B00560240 /* PaymentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB323E27B1A40B00560240 /* PaymentController.swift */; };
+		CECB325C27B1B0CC00560240 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB325827B1B0CC00560240 /* Assets.swift */; };
+		CECB325D27B1B0CC00560240 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB325927B1B0CC00560240 /* Fonts.swift */; };
+		CECB325E27B1B0CC00560240 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB325A27B1B0CC00560240 /* Colors.swift */; };
+		CECB325F27B1B0CC00560240 /* L10.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB325B27B1B0CC00560240 /* L10.swift */; };
+		CECD079827AEA1A700A1F340 /* PromoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD079727AEA1A700A1F340 /* PromoViewController.swift */; };
+		CECD079A27AEA1CD00A1F340 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD079927AEA1CD00A1F340 /* InfoViewController.swift */; };
+		CECD079D27AEA6FB00A1F340 /* VeteranoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD079C27AEA6FB00A1F340 /* VeteranoInfo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		082727838758D55E909B6AC6 /* Pods-veteranoPizzaIntegration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-veteranoPizzaIntegration.release.xcconfig"; path = "Target Support Files/Pods-veteranoPizzaIntegration/Pods-veteranoPizzaIntegration.release.xcconfig"; sourceTree = "<group>"; };
+		147D72576D330F3F0E54DC03 /* Pods_veteranoPizzaIntegration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_veteranoPizzaIntegration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C75F2C29A98F6BE0098BFD8 /* Pods-veteranoPizzaIntegration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-veteranoPizzaIntegration.debug.xcconfig"; path = "Target Support Files/Pods-veteranoPizzaIntegration/Pods-veteranoPizzaIntegration.debug.xcconfig"; sourceTree = "<group>"; };
+		CE1B2EF02799F660003CDBF8 /* veteranoPizzaIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = veteranoPizzaIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1B2EF32799F660003CDBF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE1B2EF52799F660003CDBF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE1B2EFA2799F660003CDBF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Splash.storyboard; sourceTree = "<group>"; };
+		CE1B2EFC2799F662003CDBF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE1B2EFF2799F662003CDBF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE1B2F012799F662003CDBF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE1B2F092799F87D003CDBF8 /* PizzaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaViewController.swift; sourceTree = "<group>"; };
+		CE1B2F172799FB85003CDBF8 /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
+		CE1B2F192799FCBA003CDBF8 /* UIVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVIewController.swift; sourceTree = "<group>"; };
+		CE1B2F1B2799FDC6003CDBF8 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		CE1B2F212799FFCB003CDBF8 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		CE1B2F24279A01DD003CDBF8 /* Montserrat-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.otf"; sourceTree = "<group>"; };
+		CE1B2F25279A01DD003CDBF8 /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		CE1B2F26279A01DD003CDBF8 /* NotoSans-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Thin.otf"; sourceTree = "<group>"; };
+		CE1B2F27279A01DD003CDBF8 /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		CE1B2F28279A01DD003CDBF8 /* Montserrat-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.otf"; sourceTree = "<group>"; };
+		CE1B2F29279A01DD003CDBF8 /* Montserrat-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.otf"; sourceTree = "<group>"; };
+		CE1B2F2A279A01DD003CDBF8 /* Oswald-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Medium.otf"; sourceTree = "<group>"; };
+		CE1B2F2B279A01DD003CDBF8 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		CE1B2F2C279A01DD003CDBF8 /* Montserrat-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.otf"; sourceTree = "<group>"; };
+		CE1B2F2D279A01DD003CDBF8 /* Montserrat-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.otf"; sourceTree = "<group>"; };
+		CE1B2F2E279A01DD003CDBF8 /* Montserrat-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.otf"; sourceTree = "<group>"; };
+		CE1B2F2F279A01DD003CDBF8 /* Montserrat-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.otf"; sourceTree = "<group>"; };
+		CE1B2F30279A01DD003CDBF8 /* NotoSans-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.otf"; sourceTree = "<group>"; };
+		CE1B2F31279A01DD003CDBF8 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		CE1B2F32279A01DD003CDBF8 /* NotoSans-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Medium.otf"; sourceTree = "<group>"; };
+		CE1B2F33279A01DD003CDBF8 /* NotoSans-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.otf"; sourceTree = "<group>"; };
+		CE1B2F34279A01DD003CDBF8 /* Montserrat-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.otf"; sourceTree = "<group>"; };
+		CE1B2F35279A01DD003CDBF8 /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Medium.ttf"; sourceTree = "<group>"; };
+		CE1B2F36279A01DD003CDBF8 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		CE1B2F37279A01DD003CDBF8 /* Montserrat-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.otf"; sourceTree = "<group>"; };
+		CE1B2F38279A01DD003CDBF8 /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		CE1B2F39279A01DD003CDBF8 /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
+		CE1B2F3A279A01DD003CDBF8 /* Montserrat-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		CE1B2F3B279A01DD003CDBF8 /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
+		CE1B2F3C279A01DD003CDBF8 /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-SemiBold.ttf"; sourceTree = "<group>"; };
+		CE1B2F3D279A01DD003CDBF8 /* Montserrat-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.otf"; sourceTree = "<group>"; };
+		CE1B2F3E279A01DD003CDBF8 /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		CE1B2F3F279A01DD003CDBF8 /* NotoSans-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-ExtraLight.otf"; sourceTree = "<group>"; };
+		CE1B2F40279A01DD003CDBF8 /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.ttf"; sourceTree = "<group>"; };
+		CE1B2F41279A01DD003CDBF8 /* Montserrat-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.otf"; sourceTree = "<group>"; };
+		CE1B2F42279A01DD003CDBF8 /* Montserrat-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		CE1B2F43279A01DD003CDBF8 /* NotoSans-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Light.otf"; sourceTree = "<group>"; };
+		CE1B2F44279A01DD003CDBF8 /* Montserrat-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.otf"; sourceTree = "<group>"; };
+		CE1B2F45279A01DD003CDBF8 /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
+		CE1B2F46279A01DD003CDBF8 /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Medium.otf"; sourceTree = "<group>"; };
+		CE1B2F47279A01DE003CDBF8 /* Oswald.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Oswald.otf; sourceTree = "<group>"; };
+		CE1B2F48279A01DE003CDBF8 /* NotoSans-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-SemiBold.otf"; sourceTree = "<group>"; };
+		CE1B2F49279A01DE003CDBF8 /* SF-Pro-Text-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		CE1B2F4A279A01DE003CDBF8 /* Montserrat-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.otf"; sourceTree = "<group>"; };
+		CE1B2F73279A0277003CDBF8 /* ColorPalette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
+		CE1B2F75279A06E1003CDBF8 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		CE306D5E27AADD7000C8F512 /* AddIngredientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIngredientsViewController.swift; sourceTree = "<group>"; };
+		CE306D6027AADDAB00C8F512 /* DoubleDismiss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleDismiss.swift; sourceTree = "<group>"; };
+		CE306D6227AADE2700C8F512 /* AddIngredientsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIngredientsCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE306D6427AADEDB00C8F512 /* ReusableCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableCollectionCell.swift; sourceTree = "<group>"; };
+		CE306D6727AAFA0800C8F512 /* IngredientsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE8239EE27A41FBA00389524 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		CE8239F027A41FE200389524 /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+		CE8239F727A4350F00389524 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		CE8239FA27A436CA00389524 /* ReusableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableCell.swift; sourceTree = "<group>"; };
+		CE8239FC27A43A4C00389524 /* PizzaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaTableViewCell.swift; sourceTree = "<group>"; };
+		CE8239FE27A43D5E00389524 /* PriceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceFactory.swift; sourceTree = "<group>"; };
+		CE823A0027A43D8700389524 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		CE823A0227A69F9900389524 /* OrderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderService.swift; sourceTree = "<group>"; };
+		CE823A0927A7310F00389524 /* PizzaIngredientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaIngredientsViewController.swift; sourceTree = "<group>"; };
+		CE8CD30C27AFE8AB00B3D182 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		CE8CD30E27AFEA8B00B3D182 /* BasketPizzaCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketPizzaCells.swift; sourceTree = "<group>"; };
+		CE8CD30F27AFEA8B00B3D182 /* HeaderTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderTableView.swift; sourceTree = "<group>"; };
+		CE8CD31027AFEA8B00B3D182 /* DestinationCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationCells.swift; sourceTree = "<group>"; };
+		CE8CD31127AFEA8B00B3D182 /* ConfirmOrderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmOrderCell.swift; sourceTree = "<group>"; };
+		CE8CD31227AFEA8B00B3D182 /* InfoFieldCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoFieldCells.swift; sourceTree = "<group>"; };
+		CE8CD31327AFEA8B00B3D182 /* OrderSettingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderSettingsCell.swift; sourceTree = "<group>"; };
+		CE8F88E327B2A5D400D26C29 /* PromoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoTableViewCell.swift; sourceTree = "<group>"; };
+		CE8F88E527B2A5E600D26C29 /* PromoIngridientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoIngridientsViewController.swift; sourceTree = "<group>"; };
+		CE8F88E727B2D31100D26C29 /* WeightFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightFactory.swift; sourceTree = "<group>"; };
+		CE8F88F227B3CCE400D26C29 /* libLiqpayMob_universal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLiqpayMob_universal.a; sourceTree = "<group>"; };
+		CE8F88F327B3CCE400D26C29 /* LiqpayMob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiqpayMob.h; sourceTree = "<group>"; };
+		CE8F88F527B3CDEA00D26C29 /* veteranoPizzaIntegration-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "veteranoPizzaIntegration-Bridging-Header.h"; sourceTree = "<group>"; };
+		CE8F88F827B3E16C00D26C29 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		CE8F88FA27B3E66A00D26C29 /* InfoTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTextViewController.swift; sourceTree = "<group>"; };
+		CE8F88FC27B3E6FE00D26C29 /* ContractPublicOfert.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ContractPublicOfert.txt; path = "../../../Library/work/memology-ios/Memology/Resources/ContractPublicOfert.txt"; sourceTree = "<group>"; };
+		CEC6EB1D27ABBBDA00437DA5 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		CEC6EB2027AC3EA500437DA5 /* PreOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreOrderViewController.swift; sourceTree = "<group>"; };
+		CEC6EB2227AD1A3200437DA5 /* PreOrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreOrderTableViewCell.swift; sourceTree = "<group>"; };
+		CEC6EB2627AD512C00437DA5 /* RootCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCollectionViewController.swift; sourceTree = "<group>"; };
+		CECB321A27B13C8000560240 /* DrinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksViewController.swift; sourceTree = "<group>"; };
+		CECB321D27B13CDD00560240 /* DrinksTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksTableViewCell.swift; sourceTree = "<group>"; };
+		CECB321F27B1484B00560240 /* DrinksPropertiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksPropertiesViewController.swift; sourceTree = "<group>"; };
+		CECB322227B153A100560240 /* SaladsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaladsViewController.swift; sourceTree = "<group>"; };
+		CECB322427B1544100560240 /* SaladsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaladsTableViewCell.swift; sourceTree = "<group>"; };
+		CECB322627B15D3000560240 /* SaladsIngridientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaladsIngridientsViewController.swift; sourceTree = "<group>"; };
+		CECB322927B19B5100560240 /* SoucesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoucesViewController.swift; sourceTree = "<group>"; };
+		CECB322B27B19B9100560240 /* SoucesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoucesTableViewCell.swift; sourceTree = "<group>"; };
+		CECB322D27B19BC300560240 /* SoucesIngridientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoucesIngridientViewController.swift; sourceTree = "<group>"; };
+		CECB323D27B1A40B00560240 /* LiqPayManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiqPayManager.swift; sourceTree = "<group>"; };
+		CECB323E27B1A40B00560240 /* PaymentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentController.swift; sourceTree = "<group>"; };
+		CECB325827B1B0CC00560240 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		CECB325927B1B0CC00560240 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		CECB325A27B1B0CC00560240 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		CECB325B27B1B0CC00560240 /* L10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L10.swift; sourceTree = "<group>"; };
+		CECD079727AEA1A700A1F340 /* PromoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoViewController.swift; sourceTree = "<group>"; };
+		CECD079927AEA1CD00A1F340 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		CECD079C27AEA6FB00A1F340 /* VeteranoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeteranoInfo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE1B2EED2799F660003CDBF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8F88F427B3CCE400D26C29 /* libLiqpayMob_universal.a in Frameworks */,
+				1E81E80F3DD8796D0B3C0283 /* Pods_veteranoPizzaIntegration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE1B2EE72799F660003CDBF8 = {
+			isa = PBXGroup;
+			children = (
+				CE8F88F127B3CCE400D26C29 /* LiqPay */,
+				CE1B2EF22799F660003CDBF8 /* veteranoPizzaIntegration */,
+				CE1B2EF12799F660003CDBF8 /* Products */,
+				CEFA247E2E48657B3B7C7676 /* Pods */,
+				F08AF36ACE0289FDC8A695F3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE1B2EF12799F660003CDBF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE1B2EF02799F660003CDBF8 /* veteranoPizzaIntegration.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE1B2EF22799F660003CDBF8 /* veteranoPizzaIntegration */ = {
+			isa = PBXGroup;
+			children = (
+				CE1B2F012799F662003CDBF8 /* Info.plist */,
+				CE1B2F0B2799F901003CDBF8 /* Resourses */,
+				CE8239F527A434EE00389524 /* Core */,
+				CE1B2F152799FA08003CDBF8 /* UI */,
+			);
+			path = veteranoPizzaIntegration;
+			sourceTree = "<group>";
+		};
+		CE1B2F0B2799F901003CDBF8 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				CE8F88FC27B3E6FE00D26C29 /* ContractPublicOfert.txt */,
+				CE8F88F527B3CDEA00D26C29 /* veteranoPizzaIntegration-Bridging-Header.h */,
+				CECB325727B1B0CC00560240 /* SwiftGen */,
+				CE1B2F23279A01DD003CDBF8 /* Fonts */,
+				CE1B2F1B2799FDC6003CDBF8 /* Localizable.strings */,
+				CE1B2EF32799F660003CDBF8 /* AppDelegate.swift */,
+				CE1B2EF52799F660003CDBF8 /* SceneDelegate.swift */,
+				CE1B2EFC2799F662003CDBF8 /* Assets.xcassets */,
+				CE1B2EFE2799F662003CDBF8 /* LaunchScreen.storyboard */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		CE1B2F152799FA08003CDBF8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CE8239F927A436BA00389524 /* Protocols */,
+				CE1B2F72279A021D003CDBF8 /* ColorPalette */,
+				CE1B2F1F2799FF8C003CDBF8 /* UserFlows */,
+				CE1B2F162799FB6B003CDBF8 /* Extensions */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CE1B2F162799FB6B003CDBF8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CE1B2F192799FCBA003CDBF8 /* UIVIewController.swift */,
+				CE1B2F172799FB85003CDBF8 /* UINavigationController.swift */,
+				CE1B2F75279A06E1003CDBF8 /* UIColor.swift */,
+				CE8239EE27A41FBA00389524 /* Helpers.swift */,
+				CE8239F027A41FE200389524 /* Layout.swift */,
+				CEC6EB1D27ABBBDA00437DA5 /* String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CE1B2F1F2799FF8C003CDBF8 /* UserFlows */ = {
+			isa = PBXGroup;
+			children = (
+				CECB323C27B1A40B00560240 /* PaymentController */,
+				CECB322827B19B3D00560240 /* SoucesViewController */,
+				CECB322127B1538C00560240 /* SaladsViewController */,
+				CECB321927B13C6500560240 /* DrinksViewController */,
+				CE8CD30B27AFE89800B3D182 /* OrderViewController */,
+				CECD079B27AEA1D500A1F340 /* InfoViewController */,
+				CECD079627AEA18E00A1F340 /* PromoViewController */,
+				CEC6EB2427AD4E6700437DA5 /* RootCollectionViewController */,
+				CEC6EB1F27AC3E8B00437DA5 /* PreOrderViewController */,
+				CE306D5D27AADD4F00C8F512 /* AddIngredientsViewController */,
+				CE8239F227A4255000389524 /* PizzaViewController */,
+				CE1B2F202799FF9C003CDBF8 /* SplashScreen */,
+			);
+			path = UserFlows;
+			sourceTree = "<group>";
+		};
+		CE1B2F202799FF9C003CDBF8 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CE1B2EF92799F660003CDBF8 /* Splash.storyboard */,
+				CE1B2F212799FFCB003CDBF8 /* SplashViewController.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		CE1B2F23279A01DD003CDBF8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CE1B2F24279A01DD003CDBF8 /* Montserrat-MediumItalic.otf */,
+				CE1B2F25279A01DD003CDBF8 /* Montserrat-Bold.otf */,
+				CE1B2F26279A01DD003CDBF8 /* NotoSans-Thin.otf */,
+				CE1B2F27279A01DD003CDBF8 /* Quicksand-Bold.ttf */,
+				CE1B2F28279A01DD003CDBF8 /* Montserrat-BlackItalic.otf */,
+				CE1B2F29279A01DD003CDBF8 /* Montserrat-BoldItalic.otf */,
+				CE1B2F2A279A01DD003CDBF8 /* Oswald-Medium.otf */,
+				CE1B2F2B279A01DD003CDBF8 /* SF-Pro-Display-Regular.otf */,
+				CE1B2F2C279A01DD003CDBF8 /* Montserrat-Light.otf */,
+				CE1B2F2D279A01DD003CDBF8 /* Montserrat-ThinItalic.otf */,
+				CE1B2F2E279A01DD003CDBF8 /* Montserrat-Thin.otf */,
+				CE1B2F2F279A01DD003CDBF8 /* Montserrat-ExtraLight.otf */,
+				CE1B2F30279A01DD003CDBF8 /* NotoSans-Bold.otf */,
+				CE1B2F31279A01DD003CDBF8 /* SF-Pro-Display-Bold.otf */,
+				CE1B2F32279A01DD003CDBF8 /* NotoSans-Medium.otf */,
+				CE1B2F33279A01DD003CDBF8 /* NotoSans-Regular.otf */,
+				CE1B2F34279A01DD003CDBF8 /* Montserrat-LightItalic.otf */,
+				CE1B2F35279A01DD003CDBF8 /* Quicksand-Medium.ttf */,
+				CE1B2F36279A01DD003CDBF8 /* SF-Pro-Display-Semibold.otf */,
+				CE1B2F37279A01DD003CDBF8 /* Montserrat-Medium.otf */,
+				CE1B2F38279A01DD003CDBF8 /* Quicksand-Regular.ttf */,
+				CE1B2F39279A01DD003CDBF8 /* SF-Pro-Text-Regular.otf */,
+				CE1B2F3A279A01DD003CDBF8 /* Montserrat-SemiBoldItalic.otf */,
+				CE1B2F3B279A01DD003CDBF8 /* SF-Pro-Text-Bold.otf */,
+				CE1B2F3C279A01DD003CDBF8 /* Quicksand-SemiBold.ttf */,
+				CE1B2F3D279A01DD003CDBF8 /* Montserrat-Italic.otf */,
+				CE1B2F3E279A01DD003CDBF8 /* Montserrat-Regular.otf */,
+				CE1B2F3F279A01DD003CDBF8 /* NotoSans-ExtraLight.otf */,
+				CE1B2F40279A01DD003CDBF8 /* Quicksand-Light.ttf */,
+				CE1B2F41279A01DD003CDBF8 /* Montserrat-ExtraBold.otf */,
+				CE1B2F42279A01DD003CDBF8 /* Montserrat-ExtraLightItalic.otf */,
+				CE1B2F43279A01DD003CDBF8 /* NotoSans-Light.otf */,
+				CE1B2F44279A01DD003CDBF8 /* Montserrat-Black.otf */,
+				CE1B2F45279A01DD003CDBF8 /* SF-Pro-Text-Semibold.otf */,
+				CE1B2F46279A01DD003CDBF8 /* SF-Pro-Text-Medium.otf */,
+				CE1B2F47279A01DE003CDBF8 /* Oswald.otf */,
+				CE1B2F48279A01DE003CDBF8 /* NotoSans-SemiBold.otf */,
+				CE1B2F49279A01DE003CDBF8 /* SF-Pro-Text-SemiboldItalic.otf */,
+				CE1B2F4A279A01DE003CDBF8 /* Montserrat-SemiBold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CE1B2F72279A021D003CDBF8 /* ColorPalette */ = {
+			isa = PBXGroup;
+			children = (
+				CE1B2F73279A0277003CDBF8 /* ColorPalette.swift */,
+			);
+			path = ColorPalette;
+			sourceTree = "<group>";
+		};
+		CE306D5D27AADD4F00C8F512 /* AddIngredientsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE306D5E27AADD7000C8F512 /* AddIngredientsViewController.swift */,
+				CE306D6227AADE2700C8F512 /* AddIngredientsCollectionViewCell.swift */,
+				CE306D6727AAFA0800C8F512 /* IngredientsCollectionViewCell.swift */,
+			);
+			path = AddIngredientsViewController;
+			sourceTree = "<group>";
+		};
+		CE8239F227A4255000389524 /* PizzaViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE823A0927A7310F00389524 /* PizzaIngredientsViewController.swift */,
+				CE1B2F092799F87D003CDBF8 /* PizzaViewController.swift */,
+				CE8239FC27A43A4C00389524 /* PizzaTableViewCell.swift */,
+			);
+			path = PizzaViewController;
+			sourceTree = "<group>";
+		};
+		CE8239F527A434EE00389524 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CE823A0427A69F9E00389524 /* Services */,
+				CE8239F627A4350100389524 /* Models */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CE8239F627A4350100389524 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE8239F727A4350F00389524 /* Food.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE8239F927A436BA00389524 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CE8239FA27A436CA00389524 /* ReusableCell.swift */,
+				CE306D6027AADDAB00C8F512 /* DoubleDismiss.swift */,
+				CE306D6427AADEDB00C8F512 /* ReusableCollectionCell.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		CE823A0427A69F9E00389524 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CE8239FE27A43D5E00389524 /* PriceFactory.swift */,
+				CE823A0027A43D8700389524 /* Location.swift */,
+				CE823A0227A69F9900389524 /* OrderService.swift */,
+				CECD079C27AEA6FB00A1F340 /* VeteranoInfo.swift */,
+				CE8F88E727B2D31100D26C29 /* WeightFactory.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CE8CD30B27AFE89800B3D182 /* OrderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE8CD30E27AFEA8B00B3D182 /* BasketPizzaCells.swift */,
+				CE8CD31127AFEA8B00B3D182 /* ConfirmOrderCell.swift */,
+				CE8CD31027AFEA8B00B3D182 /* DestinationCells.swift */,
+				CE8CD30F27AFEA8B00B3D182 /* HeaderTableView.swift */,
+				CE8CD31227AFEA8B00B3D182 /* InfoFieldCells.swift */,
+				CE8CD31327AFEA8B00B3D182 /* OrderSettingsCell.swift */,
+				CE8CD30C27AFE8AB00B3D182 /* OrderViewController.swift */,
+			);
+			path = OrderViewController;
+			sourceTree = "<group>";
+		};
+		CE8F88F127B3CCE400D26C29 /* LiqPay */ = {
+			isa = PBXGroup;
+			children = (
+				CE8F88F227B3CCE400D26C29 /* libLiqpayMob_universal.a */,
+				CE8F88F327B3CCE400D26C29 /* LiqpayMob.h */,
+			);
+			path = LiqPay;
+			sourceTree = "<group>";
+		};
+		CEC6EB1F27AC3E8B00437DA5 /* PreOrderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CEC6EB2027AC3EA500437DA5 /* PreOrderViewController.swift */,
+				CEC6EB2227AD1A3200437DA5 /* PreOrderTableViewCell.swift */,
+			);
+			path = PreOrderViewController;
+			sourceTree = "<group>";
+		};
+		CEC6EB2427AD4E6700437DA5 /* RootCollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CEC6EB2627AD512C00437DA5 /* RootCollectionViewController.swift */,
+			);
+			path = RootCollectionViewController;
+			sourceTree = "<group>";
+		};
+		CECB321927B13C6500560240 /* DrinksViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CECB321A27B13C8000560240 /* DrinksViewController.swift */,
+				CECB321D27B13CDD00560240 /* DrinksTableViewCell.swift */,
+				CECB321F27B1484B00560240 /* DrinksPropertiesViewController.swift */,
+			);
+			path = DrinksViewController;
+			sourceTree = "<group>";
+		};
+		CECB322127B1538C00560240 /* SaladsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CECB322227B153A100560240 /* SaladsViewController.swift */,
+				CECB322427B1544100560240 /* SaladsTableViewCell.swift */,
+				CECB322627B15D3000560240 /* SaladsIngridientsViewController.swift */,
+			);
+			path = SaladsViewController;
+			sourceTree = "<group>";
+		};
+		CECB322827B19B3D00560240 /* SoucesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CECB322927B19B5100560240 /* SoucesViewController.swift */,
+				CECB322B27B19B9100560240 /* SoucesTableViewCell.swift */,
+				CECB322D27B19BC300560240 /* SoucesIngridientViewController.swift */,
+			);
+			path = SoucesViewController;
+			sourceTree = "<group>";
+		};
+		CECB323C27B1A40B00560240 /* PaymentController */ = {
+			isa = PBXGroup;
+			children = (
+				CECB323D27B1A40B00560240 /* LiqPayManager.swift */,
+				CECB323E27B1A40B00560240 /* PaymentController.swift */,
+			);
+			path = PaymentController;
+			sourceTree = "<group>";
+		};
+		CECB325727B1B0CC00560240 /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				CECB325827B1B0CC00560240 /* Assets.swift */,
+				CECB325927B1B0CC00560240 /* Fonts.swift */,
+				CECB325A27B1B0CC00560240 /* Colors.swift */,
+				CECB325B27B1B0CC00560240 /* L10.swift */,
+			);
+			name = SwiftGen;
+			path = "../../../Desktop/riseme-feature-music_flow/RiseMe/Resources/SwiftGen";
+			sourceTree = "<group>";
+		};
+		CECD079627AEA18E00A1F340 /* PromoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CECD079727AEA1A700A1F340 /* PromoViewController.swift */,
+				CE8F88E327B2A5D400D26C29 /* PromoTableViewCell.swift */,
+				CE8F88E527B2A5E600D26C29 /* PromoIngridientsViewController.swift */,
+			);
+			path = PromoViewController;
+			sourceTree = "<group>";
+		};
+		CECD079B27AEA1D500A1F340 /* InfoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CECD079927AEA1CD00A1F340 /* InfoViewController.swift */,
+				CE8F88F827B3E16C00D26C29 /* WebViewController.swift */,
+				CE8F88FA27B3E66A00D26C29 /* InfoTextViewController.swift */,
+			);
+			path = InfoViewController;
+			sourceTree = "<group>";
+		};
+		CEFA247E2E48657B3B7C7676 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C75F2C29A98F6BE0098BFD8 /* Pods-veteranoPizzaIntegration.debug.xcconfig */,
+				082727838758D55E909B6AC6 /* Pods-veteranoPizzaIntegration.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F08AF36ACE0289FDC8A695F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				147D72576D330F3F0E54DC03 /* Pods_veteranoPizzaIntegration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE1B2EEF2799F660003CDBF8 /* veteranoPizzaIntegration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE1B2F042799F662003CDBF8 /* Build configuration list for PBXNativeTarget "veteranoPizzaIntegration" */;
+			buildPhases = (
+				12880AF010995FE4AA2C7EFD /* [CP] Check Pods Manifest.lock */,
+				CE1B2EEC2799F660003CDBF8 /* Sources */,
+				CE1B2EED2799F660003CDBF8 /* Frameworks */,
+				CE1B2EEE2799F660003CDBF8 /* Resources */,
+				E9DA18DF587713E969155C09 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = veteranoPizzaIntegration;
+			productName = veteranoPizzaIntegration;
+			productReference = CE1B2EF02799F660003CDBF8 /* veteranoPizzaIntegration.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE1B2EE82799F660003CDBF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					CE1B2EEF2799F660003CDBF8 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = CE1B2EEB2799F660003CDBF8 /* Build configuration list for PBXProject "veteranoPizzaIntegration" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE1B2EE72799F660003CDBF8;
+			productRefGroup = CE1B2EF12799F660003CDBF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE1B2EEF2799F660003CDBF8 /* veteranoPizzaIntegration */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE1B2EEE2799F660003CDBF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1B2F64279A01DE003CDBF8 /* Montserrat-Italic.otf in Resources */,
+				CE1B2F4B279A01DE003CDBF8 /* Montserrat-MediumItalic.otf in Resources */,
+				CE1B2F6B279A01DE003CDBF8 /* Montserrat-Black.otf in Resources */,
+				CE1B2F69279A01DE003CDBF8 /* Montserrat-ExtraLightItalic.otf in Resources */,
+				CE1B2F70279A01DE003CDBF8 /* SF-Pro-Text-SemiboldItalic.otf in Resources */,
+				CE1B2F5E279A01DE003CDBF8 /* Montserrat-Medium.otf in Resources */,
+				CE1B2F002799F662003CDBF8 /* LaunchScreen.storyboard in Resources */,
+				CE1B2F58279A01DE003CDBF8 /* SF-Pro-Display-Bold.otf in Resources */,
+				CE1B2F5F279A01DE003CDBF8 /* Quicksand-Regular.ttf in Resources */,
+				CE1B2F6A279A01DE003CDBF8 /* NotoSans-Light.otf in Resources */,
+				CE1B2F71279A01DE003CDBF8 /* Montserrat-SemiBold.otf in Resources */,
+				CE1B2F1C2799FDC6003CDBF8 /* Localizable.strings in Resources */,
+				CE1B2F50279A01DE003CDBF8 /* Montserrat-BoldItalic.otf in Resources */,
+				CE1B2F5C279A01DE003CDBF8 /* Quicksand-Medium.ttf in Resources */,
+				CE1B2F53279A01DE003CDBF8 /* Montserrat-Light.otf in Resources */,
+				CE1B2F5D279A01DE003CDBF8 /* SF-Pro-Display-Semibold.otf in Resources */,
+				CE1B2F57279A01DE003CDBF8 /* NotoSans-Bold.otf in Resources */,
+				CE1B2F66279A01DE003CDBF8 /* NotoSans-ExtraLight.otf in Resources */,
+				CE8F88FD27B3E6FE00D26C29 /* ContractPublicOfert.txt in Resources */,
+				CE1B2F5A279A01DE003CDBF8 /* NotoSans-Regular.otf in Resources */,
+				CE1B2EFD2799F662003CDBF8 /* Assets.xcassets in Resources */,
+				CE1B2F67279A01DE003CDBF8 /* Quicksand-Light.ttf in Resources */,
+				CE1B2F6E279A01DE003CDBF8 /* Oswald.otf in Resources */,
+				CE1B2F51279A01DE003CDBF8 /* Oswald-Medium.otf in Resources */,
+				CE1B2F6C279A01DE003CDBF8 /* SF-Pro-Text-Semibold.otf in Resources */,
+				CE1B2EFB2799F660003CDBF8 /* Splash.storyboard in Resources */,
+				CE1B2F6F279A01DE003CDBF8 /* NotoSans-SemiBold.otf in Resources */,
+				CE1B2F56279A01DE003CDBF8 /* Montserrat-ExtraLight.otf in Resources */,
+				CE1B2F4F279A01DE003CDBF8 /* Montserrat-BlackItalic.otf in Resources */,
+				CE1B2F5B279A01DE003CDBF8 /* Montserrat-LightItalic.otf in Resources */,
+				CE1B2F4C279A01DE003CDBF8 /* Montserrat-Bold.otf in Resources */,
+				CE1B2F6D279A01DE003CDBF8 /* SF-Pro-Text-Medium.otf in Resources */,
+				CE1B2F55279A01DE003CDBF8 /* Montserrat-Thin.otf in Resources */,
+				CE1B2F4D279A01DE003CDBF8 /* NotoSans-Thin.otf in Resources */,
+				CE1B2F54279A01DE003CDBF8 /* Montserrat-ThinItalic.otf in Resources */,
+				CE1B2F62279A01DE003CDBF8 /* SF-Pro-Text-Bold.otf in Resources */,
+				CE1B2F60279A01DE003CDBF8 /* SF-Pro-Text-Regular.otf in Resources */,
+				CE1B2F59279A01DE003CDBF8 /* NotoSans-Medium.otf in Resources */,
+				CE1B2F68279A01DE003CDBF8 /* Montserrat-ExtraBold.otf in Resources */,
+				CE1B2F63279A01DE003CDBF8 /* Quicksand-SemiBold.ttf in Resources */,
+				CE1B2F65279A01DE003CDBF8 /* Montserrat-Regular.otf in Resources */,
+				CE1B2F61279A01DE003CDBF8 /* Montserrat-SemiBoldItalic.otf in Resources */,
+				CE1B2F52279A01DE003CDBF8 /* SF-Pro-Display-Regular.otf in Resources */,
+				CE1B2F4E279A01DE003CDBF8 /* Quicksand-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12880AF010995FE4AA2C7EFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-veteranoPizzaIntegration-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9DA18DF587713E969155C09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-veteranoPizzaIntegration/Pods-veteranoPizzaIntegration-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-veteranoPizzaIntegration/Pods-veteranoPizzaIntegration-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-veteranoPizzaIntegration/Pods-veteranoPizzaIntegration-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE1B2EEC2799F660003CDBF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECD079D27AEA6FB00A1F340 /* VeteranoInfo.swift in Sources */,
+				CEC6EB2727AD512C00437DA5 /* RootCollectionViewController.swift in Sources */,
+				CE1B2EF42799F660003CDBF8 /* AppDelegate.swift in Sources */,
+				CE8239FF27A43D5E00389524 /* PriceFactory.swift in Sources */,
+				CE1B2F222799FFCB003CDBF8 /* SplashViewController.swift in Sources */,
+				CEC6EB1E27ABBBDA00437DA5 /* String.swift in Sources */,
+				CECB325D27B1B0CC00560240 /* Fonts.swift in Sources */,
+				CECB322A27B19B5100560240 /* SoucesViewController.swift in Sources */,
+				CE1B2EF62799F660003CDBF8 /* SceneDelegate.swift in Sources */,
+				CECB325F27B1B0CC00560240 /* L10.swift in Sources */,
+				CE823A0127A43D8700389524 /* Location.swift in Sources */,
+				CE8F88E627B2A5E600D26C29 /* PromoIngridientsViewController.swift in Sources */,
+				CECB321E27B13CDD00560240 /* DrinksTableViewCell.swift in Sources */,
+				CECB322727B15D3000560240 /* SaladsIngridientsViewController.swift in Sources */,
+				CE8CD31627AFEA8B00B3D182 /* DestinationCells.swift in Sources */,
+				CE1B2F74279A0277003CDBF8 /* ColorPalette.swift in Sources */,
+				CE1B2F76279A06E1003CDBF8 /* UIColor.swift in Sources */,
+				CE306D5F27AADD7000C8F512 /* AddIngredientsViewController.swift in Sources */,
+				CECB322027B1484B00560240 /* DrinksPropertiesViewController.swift in Sources */,
+				CE8239FB27A436CA00389524 /* ReusableCell.swift in Sources */,
+				CE823A0327A69F9900389524 /* OrderService.swift in Sources */,
+				CE8239F127A41FE200389524 /* Layout.swift in Sources */,
+				CE1B2F182799FB85003CDBF8 /* UINavigationController.swift in Sources */,
+				CECB321B27B13C8100560240 /* DrinksViewController.swift in Sources */,
+				CE306D6327AADE2700C8F512 /* AddIngredientsCollectionViewCell.swift in Sources */,
+				CE306D6527AADEDB00C8F512 /* ReusableCollectionCell.swift in Sources */,
+				CE8239F827A4350F00389524 /* Food.swift in Sources */,
+				CE8239FD27A43A4C00389524 /* PizzaTableViewCell.swift in Sources */,
+				CE8CD31827AFEA8B00B3D182 /* InfoFieldCells.swift in Sources */,
+				CE1B2F1A2799FCBA003CDBF8 /* UIVIewController.swift in Sources */,
+				CE8239EF27A41FBA00389524 /* Helpers.swift in Sources */,
+				CE8F88FB27B3E66A00D26C29 /* InfoTextViewController.swift in Sources */,
+				CECB323F27B1A40B00560240 /* LiqPayManager.swift in Sources */,
+				CE8CD31427AFEA8B00B3D182 /* BasketPizzaCells.swift in Sources */,
+				CE306D6127AADDAB00C8F512 /* DoubleDismiss.swift in Sources */,
+				CECD079827AEA1A700A1F340 /* PromoViewController.swift in Sources */,
+				CEC6EB2327AD1A3200437DA5 /* PreOrderTableViewCell.swift in Sources */,
+				CE8CD30D27AFE8AB00B3D182 /* OrderViewController.swift in Sources */,
+				CE306D6827AAFA0800C8F512 /* IngredientsCollectionViewCell.swift in Sources */,
+				CE8F88F927B3E16C00D26C29 /* WebViewController.swift in Sources */,
+				CECB325E27B1B0CC00560240 /* Colors.swift in Sources */,
+				CECB325C27B1B0CC00560240 /* Assets.swift in Sources */,
+				CECB322527B1544100560240 /* SaladsTableViewCell.swift in Sources */,
+				CE8CD31527AFEA8B00B3D182 /* HeaderTableView.swift in Sources */,
+				CE8CD31927AFEA8B00B3D182 /* OrderSettingsCell.swift in Sources */,
+				CECB322E27B19BC300560240 /* SoucesIngridientViewController.swift in Sources */,
+				CECB322327B153A100560240 /* SaladsViewController.swift in Sources */,
+				CECB322C27B19B9100560240 /* SoucesTableViewCell.swift in Sources */,
+				CE8F88E827B2D31100D26C29 /* WeightFactory.swift in Sources */,
+				CE8F88E427B2A5D400D26C29 /* PromoTableViewCell.swift in Sources */,
+				CE823A0A27A7310F00389524 /* PizzaIngredientsViewController.swift in Sources */,
+				CEC6EB2127AC3EA500437DA5 /* PreOrderViewController.swift in Sources */,
+				CECD079A27AEA1CD00A1F340 /* InfoViewController.swift in Sources */,
+				CE1B2F0A2799F87D003CDBF8 /* PizzaViewController.swift in Sources */,
+				CE8CD31727AFEA8B00B3D182 /* ConfirmOrderCell.swift in Sources */,
+				CECB324027B1A40B00560240 /* PaymentController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE1B2EF92799F660003CDBF8 /* Splash.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE1B2EFA2799F660003CDBF8 /* Base */,
+			);
+			name = Splash.storyboard;
+			sourceTree = "<group>";
+		};
+		CE1B2EFE2799F662003CDBF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE1B2EFF2799F662003CDBF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE1B2F022799F662003CDBF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE1B2F032799F662003CDBF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE1B2F052799F662003CDBF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C75F2C29A98F6BE0098BFD8 /* Pods-veteranoPizzaIntegration.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NR99RP263J;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SVPinCodeView/SVPinCodeView.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/TinyConstraints/TinyConstraints.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/VKPinCodeView/VKPinCodeView.framework/Headers\"",
+					"$(PROJECT_DIR)/LiqPay",
+				);
+				INFOPLIST_FILE = veteranoPizzaIntegration/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Oleksiy Humenyuk";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LiqPay",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Humenyuk-Oleksiy.veteranoPizzaIntegration";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE1B2F062799F662003CDBF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 082727838758D55E909B6AC6 /* Pods-veteranoPizzaIntegration.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NR99RP263J;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SVPinCodeView/SVPinCodeView.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/TinyConstraints/TinyConstraints.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/VKPinCodeView/VKPinCodeView.framework/Headers\"",
+					"$(PROJECT_DIR)/LiqPay",
+				);
+				INFOPLIST_FILE = veteranoPizzaIntegration/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Oleksiy Humenyuk";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LiqPay",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Humenyuk-Oleksiy.veteranoPizzaIntegration";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE1B2EEB2799F660003CDBF8 /* Build configuration list for PBXProject "veteranoPizzaIntegration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1B2F022799F662003CDBF8 /* Debug */,
+				CE1B2F032799F662003CDBF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE1B2F042799F662003CDBF8 /* Build configuration list for PBXNativeTarget "veteranoPizzaIntegration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1B2F052799F662003CDBF8 /* Debug */,
+				CE1B2F062799F662003CDBF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE1B2EE82799F660003CDBF8 /* Project object */;
+}

@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-veteranoPizzaIntegration/Pods-veteranoPizzaIntegration-frameworks.sh
+${BUILT_PRODUCTS_DIR}/SVPinCodeView/SVPinCodeView.framework
+${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework
+${BUILT_PRODUCTS_DIR}/VKPinCodeView/VKPinCodeView.framework
